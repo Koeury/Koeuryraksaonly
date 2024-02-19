@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+
+    <main>
+        <div class="imagetitle">
+            <img src="01.jpg" width="500px">
+            <img src="play.png" class="play-btn" onclick="playVideo('y2mate.com - ทปรกษา  Cover Night Live Friend Zone Room39 x The Toys  Official _360p.mp4')">
+        </div>
+    </main>
+    <footer>
+        <div class="Name">
+            <p>N O A H(2024)</p>
+        </div>
+        <div class="Watch">
+            <p>WATCH NOW</p>
+        </div>
+        <div class="Choose">
+            <ul>
+                <li><a href="">Free</a></li>
+                <li><a href="">SD</a></li>
+                <li><a href="">4K</a></li>
+                <li><a href="">HD</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls  id="myVideo">
+            <source src="y2mate.com - ทปรกษา  Cover Night Live Friend Zone Room39 x The Toys  Official _360p.mp4" type="video/mp4">
+        </video>
+        <img src="x.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+
+            videoPlayer.style.display = "none";
+        }
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display= "block";
+        }
+    </script>
+</body>
+</html>

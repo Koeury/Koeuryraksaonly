@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    line-height: 1.6;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+header{
+    background: linear-gradient(to left, #ec23ce 40%,#0727c7);
+    color: #fff;
+    padding: 20px  0;
+    position: -webkit-sticky;
+    position: sticky;
+  
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .25s ease-in-out;
+}
+nav ul  li a:hover{
+    background-color: #0e90fa;
+    color: #fff;
+}
+.footer{ 
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.imagetitle img{
+    height: auto;
+    margin-left: 33%;
+}
+.Choose{
+    text-align: center;
+   
+}
+.Name{
+    text-align: center;
+    font-size: 30px;
+}
+.Watch{
+    text-align: center;
+    font-size: 25px;
+    color: #847f7f;
+}
+.Choose ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 50px 0px 50px;
+}
+footer div{
+    background-color: #333;
+    width: 700px;
+    margin: auto;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 16.5%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    display: none;
+    transform: translate(-50%,-50%);
+}
+video:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   width: 30px;
+   cursor: pointer; 
+}
+

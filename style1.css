@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    line-height: 1.6;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    background: linear-gradient(to left, #ec23ce 40%,#0727c7);
+    color: #fff;
+    padding: 20px  0;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .25s ease-in-out;
+}
+nav ul  li a:hover{
+    background-color: #0e90fa;
+    color: #fff;
+}
+main{
+    padding: 40px 0;
+}
+section{
+    margin-bottom: 40px;
+}
+section h2{
+    margin-bottom: 20px;
+}
+#banner{
+    background-image: url(banner2.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.container p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.banner h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.Button{
+    padding: 10px 20px;
+    background-color: #0e90fa;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;  
+}
+#movies .movies{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+}
+#movies .movies img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
